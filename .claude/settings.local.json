@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "Bash(pio test *)",
+      "Bash(~/.platformio/penv/bin/pio test *)",
+      "WebFetch(domain:collector.platformio.org)",
+      "Read(//Users/marco.scholl/.platformio/packages/tool-esptoolpy/**)",
+      "Read(//Users/marco.scholl/.platformio/penv/bin/**)",
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "WebFetch(domain:github.com)"
+    ]
+  },
+  "sandbox": {
+    "enabled": false,
+    "autoAllowBashIfSandboxed": false
+  }
+}

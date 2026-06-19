@@ -1,0 +1,19 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "wMBus: Build + Package",
+      "type": "shell",
+      "command": "${workspaceFolder}/build.sh",
+      "group": "build",
+      "problemMatcher": []
+    },
+    {
+      "label": "wMBus: Build only",
+      "type": "shell",
+      "command": "${env:HOME}/.platformio/penv/bin/pio run -e rpipico -e rpipico2 -e esp32",
+      "group": "build",
+      "problemMatcher": []
+    }
+  ]
+}
